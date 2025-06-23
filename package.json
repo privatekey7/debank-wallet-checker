@@ -1,0 +1,38 @@
+{
+  "name": "debank-wallet-checker",
+  "version": "1.0.0",
+  "description": "Чекер кошельков DeBank с защитой от трекеров и поддержкой прокси",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "install-browsers": "npx playwright install",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "check": "npm audit && node -c index.js && node -c src/debank_checker.js",
+    "production": "NODE_ENV=production node index.js"
+  },
+  "keywords": [
+    "wallet",
+    "checker",
+    "debank",
+    "crypto",
+    "blockchain",
+    "tracker-blocker"
+  ],
+  "author": "Wallet Analyzer Team",
+  "license": "MIT",
+  "type": "commonjs",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-repo/debank-checker.git"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  },
+  "dependencies": {
+    "cli-progress": "^3.12.0",
+    "colors": "^1.4.0",
+    "exceljs": "^4.4.0",
+    "playwright": "^1.53.1"
+  }
+}

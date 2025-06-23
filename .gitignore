@@ -1,0 +1,58 @@
+# Зависимости
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Конфиденциальные файлы
+config/wallets.txt
+config/proxies.txt
+
+# Результаты
+result/
+*.xlsx
+*.csv
+
+# Логи
+logs/
+*.log
+
+# Временные файлы
+.tmp/
+temp/
+
+# Переменные окружения
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Кеш операционной системы
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Playwright
+playwright-report/
+test-results/
+/test-results/
+/playwright-report/
+/playwright/.cache/
+
+# Браузеры Playwright
+ms-playwright/
+
+# Дебаг файлы
+debug.log 
