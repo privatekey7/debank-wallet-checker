@@ -15,5 +15,3 @@
 # Примеры:
 # http://user:pass@proxy.example.com:8080
 # 192.168.1.100:3128:myuser:mypass
-
-# Скопируйте этот файл в proxies.txt и добавьте свои прокси 
