@@ -3,7 +3,6 @@
 <div align="center">
   <img src="https://img.shields.io/badge/JavaScript-ES6+-yellow.svg" alt="JavaScript ES6+"/>
   <img src="https://img.shields.io/badge/Node.js-14+-green.svg" alt="Node.js 14+"/>
-  <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License: MIT"/>
 </div>
 
 ## 📋 Описание
